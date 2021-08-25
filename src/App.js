@@ -258,7 +258,7 @@ function App() {
           <div className="icon__options">
             <i onClick={onCreateSelete.bind(this, "create_room")} className="fa fa-building" data-toggle="tooltip" data-placement="left" title="Create Room"></i>
             <i onClick={onCreateSelete.bind(this, "create_rack")} className="fa fa-square" data-toggle="tooltip" data-placement="left" title="Create Rack"></i>
-            <i className="fa fa-thermometer-three-quarters" data-toggle="tooltip" data-placement="left" title="Check Temparetrue"></i>
+            {/* <i className="fa fa-thermometer-three-quarters" data-toggle="tooltip" data-placement="left" title="Check Temparetrue"></i> */}
           </div>
           {/* <div className="form-group options">
             <select className="form-control" value={form} onChange={onCreateSelete}>
